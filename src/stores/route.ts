@@ -22,7 +22,6 @@ export const useRouteStore = defineStore('route', () => {
 
   const updateRouteList = () => {
     localStorage.setItem('routes', JSON.stringify(routeList))
-    console.log(likedRoutesCount.value)
   }
 
 
@@ -40,8 +39,12 @@ export const useRouteStore = defineStore('route', () => {
   }
 
   const deleteRoute = (id: string) => {
+    const foundedIndex: number = routeList.findIndex((item: Route) => item.id === id)
+    if (foundedIndex === -1) {
+      console.log('Route not found')
+      return
+    }
     if (confirm('Do you confirm the deletion of the route?')) {
-      const foundedIndex: number = routeList.findIndex((item: Route) => item.id === id)
       routeList.splice(foundedIndex, 1)
       updateRouteList()
     }
