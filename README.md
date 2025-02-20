@@ -25,6 +25,7 @@ Here's why:
 The application was developed using these technologies:
 
 * [![Vue][Vue.js]][Vue-url]
+* [![TailwindCSS][Tailwindcss]][Tailwind-url]
 * [![Pinia][Pinia.js]][Pinia-url]
 * [![Google Maps API][GoogleMaps]][GoogleMaps-url]
 
@@ -90,6 +91,10 @@ Before you begin, ensure your environment meets the following requirements:
 [Pinia.js]: https://img.shields.io/badge/Pinia-FFD700?style=for-the-badge&logo=pinia&logoColor=black
 
 [Pinia-url]: https://pinia.vuejs.org/
+
+[Tailwindcss]: https://img.shields.io/badge/TailwindCSS-00BCFF?style=for-the-badge&logo=tailwindcss&logoColor=white
+
+[Tailwind-url]: https://tailwindcss.com/
 
 [GoogleMaps]: https://img.shields.io/badge/Google%20Maps%20API-4285F4?style=for-the-badge&logo=googlemaps&logoColor=white
 
