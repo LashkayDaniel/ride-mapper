@@ -1,39 +1,96 @@
-# ride-mapper
+<!-- PROJECT SHIELDS -->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
 
-This template should help get you started developing with Vue 3 in Vite.
+<!-- ABOUT THE PROJECT -->
 
-## Recommended IDE Setup
+## About The Project
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+This system is designed for building, tracking, and saving routes efficiently. It provides an intuitive user interface
+that ensures smooth navigation and an enhanced user experience.
 
-## Type Support for `.vue` Imports in TS
+<img src="public/preview.jpg" alt="dashboard image" style="max-width: 600px">
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+Here's why:
 
-## Customize configuration
+* **User-friendly interface**
+* **Route tracking**
+* **Google Maps API integration**
+* **State management with Pinia**
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+### Built With
 
-## Project Setup
+The application was developed using these technologies:
 
-```sh
-npm install
-```
+* [![Vue][Vue.js]][Vue-url]
+* [![Pinia][Pinia.js]][Pinia-url]
+* [![Google Maps API][GoogleMaps]][GoogleMaps-url]
 
-### Compile and Hot-Reload for Development
+<!-- GETTING STARTED -->
 
-```sh
-npm run dev
-```
+## Getting Started
 
-### Type-Check, Compile and Minify for Production
+A brief step-by-step guide to installing all dependencies to ensure the application runs correctly.
 
-```sh
-npm run build
-```
+### Requirements
 
-### Lint with [ESLint](https://eslint.org/)
+Before you begin, ensure your environment meets the following requirements:
 
-```sh
-npm run lint
-```
+- Node.js >= 21.x
+- NPM >= 9.x
+
+### Installation
+
+1. Clone the repository to your local machine:
+    ```bash
+    git clone https://github.com/LashkayDaniel/ride-mapper.git
+    ```
+
+2. Navigate to the project directory:
+    ```bash
+    cd ride-mapper
+    ```
+
+3. Install JavaScript dependencies using NPM:
+    ```bash
+    npm install
+    ```
+
+4. Start the development server:
+    ```bash
+    npm run dev
+    ```
+
+6. Open your browser and go to `http://localhost:5173`.
+
+<!-- MARKDOWN LINKS & IMAGES -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/LashkayDaniel/ride-mapper.svg?style=for-the-badge
+
+[contributors-url]: https://github.com/LashkayDaniel/ride-mapper/graphs/contributors
+
+[forks-shield]: https://img.shields.io/github/forks/LashkayDaniel/ride-mapper?style=for-the-badge
+
+[forks-url]: https://github.com/LashkayDaniel/ride-mapper/network/members
+
+[stars-shield]: https://img.shields.io/github/stars/LashkayDaniel/ride-mapper.svg?style=for-the-badge
+
+[stars-url]: https://github.com/LashkayDaniel/ride-mapper/stargazers
+
+[issues-shield]: https://img.shields.io/github/issues/LashkayDaniel/ride-mapper.svg?style=for-the-badge
+
+[issues-url]: https://github.com/LashkayDaniel/ride-mapper/issues
+
+[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
+
+[Vue-url]: https://vuejs.org/
+
+[Pinia.js]: https://img.shields.io/badge/Pinia-FFD700?style=for-the-badge&logo=pinia&logoColor=black
+
+[Pinia-url]: https://pinia.vuejs.org/
+
+[GoogleMaps]: https://img.shields.io/badge/Google%20Maps%20API-4285F4?style=for-the-badge&logo=googlemaps&logoColor=white
+
+[GoogleMaps-url]: https://developers.google.com/maps
